@@ -22,7 +22,7 @@ PostRepository postRepository;
         model.addAttribute("title", "Main page");
         return "main";
     }
-
+//hhghg
     @GetMapping("/about")
     public String about(Model model) {
         model.addAttribute("title", "About Us");
