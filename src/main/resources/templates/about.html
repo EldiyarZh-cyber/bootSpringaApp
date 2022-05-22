@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+<header th:insert="header :: header"></header>
+
+<div class="container mt-5">
+    <h1 th:text="${title}"></h1>
+    <p>Our company has been on the market since 2022.
+        We value each of our customers, so high quality service is
+        a priority for us. You can always ask your questions
+        online or by phone and get detailed advice
+        A team of professionals monitors the constant replenishment and updating
+        of the assortment, the development of promotions and a system of favorable discounts,
+        informing our customers about the appearance of new products. Employees
+        undergo thorough training, improve their skills and knowledge,
+        take special courses and trainings to keep up with the times.
+        We work with more than 120 cities in Russia and CIS countries. The geography of our
+        sales is expanding every year.
+        Our mission is to constantly develop and improve the quality of our products
+        through the introduction of innovative technologies. To make the world more perfect,
+        and people - customers, employees and others - happier.
+        In its activities, our company is guided by the principle
+        of "Minimizing the negative impact on the environment", therefore
+        , a responsible attitude to the environment is one of the company's priorities.</p>
+
+</div>
+<div th:insert="footer :: footer"></div>
+</div>
+</body>
